@@ -34,7 +34,7 @@ export default function App() {
 
       
     gsap.to(".animated-bg", {
-      backgroundPosition: "200% 0%",
+      backgroundPosition: "100% 0%",
       repeat: -1,
       duration: 6,
       ease: "none",
@@ -44,7 +44,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="animated-bg flex items-center justify-center h-screen bg-gray-100 space-x-4 bg-gradient-to-r bg-[length:300%_50%] from-blue-500 to-purple-500">
+    <div className="animated-bg flex items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500 bg-[length:200%_100%] space-x-4">
       <div className="relative">
         <h1 className="animated-text text-3xl font-bold text-white">
           Under Maintenance

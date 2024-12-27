@@ -36,7 +36,7 @@ export default function App() {
     gsap.to(".animated-bg", {
       backgroundPosition: "100% 0%",
       repeat: -1,
-      duration: 6,
+      duration: 3,
       ease: "none",
       yoyo: true,
     });

@@ -34,7 +34,7 @@ export const Hero = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="./public/assets/linkedin.png"
+                src="./assets/linkedin.png"
                 alt="LinkedIn"
                 className="cursor-pointer w-12 h-12"
               />
@@ -45,7 +45,7 @@ export const Hero = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="./public/assets/github.png"
+                src="./assets/github.png"
                 alt="GitHub"
                 className="cursor-pointer w-12 h-12"
               />

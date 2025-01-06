@@ -6,7 +6,8 @@ import { Quotes } from "./components/Quotes";
 
 export default function App() {
   return (
-    <div>
+<div className=" hidden md:block">
+<div>
       <SideBar />
 
     <div className=" w-10/12 ml-auto">
@@ -24,12 +25,13 @@ export default function App() {
 
     <div className="ml-auto">
     <Quotes />
-    </div>
+    </div>x
 
     </div>
     </div>
 
 
     </div>
+</div>
   );
 }

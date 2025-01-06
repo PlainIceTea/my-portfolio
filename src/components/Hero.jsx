@@ -5,11 +5,7 @@ import { MyPictureHero } from "./MyPictureHero";
 export const Hero = () => {
   return (
     <div className="w-full flex homePart">
-      <img
-        className="absolute object-cover -translate-x-80 ml-16 mt-52  translate-y-42 z-[-10]"
-        src="/assets/longLine.png" // Corrected path for public folder assets
-        alt="Foreground image"
-      />
+      
       <div className="w-1/2 h-auto overflow-y-auto">
         <div className="container mx-auto pt-36 text-center w-max">
           <h1 className="text-6xl font-normal tracking-wider leading-tight uppercase text-gray-800 font-ibm-plex-sans">

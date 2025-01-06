@@ -23,7 +23,7 @@ export const SideBar = () => {
       <div className="font-bold m-10 flex flex-col">
         <button className="mt-5 text-left" onClick={toTop}>About Me</button>
         <button className="mt-5 text-left" onClick={toExperience}>Experience</button>
-        <button className="mt-5 text-left" onClick={toReviews}>Reviews</button>
+        <button className="mt-5 text-left" onClick={toReviews}>Motto</button>
       </div>
     </div>
   );

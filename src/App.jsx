@@ -6,7 +6,7 @@ import { Quotes } from "./components/Quotes";
 
 export default function App() {
   return (
-<div className=" hidden md:block">
+<div className=" hidden lg:block">
 <div>
       <SideBar />
 
